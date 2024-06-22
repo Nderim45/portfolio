@@ -9,9 +9,24 @@ const Navbar = () => {
         <h1>N.H Portfolio</h1>
       </div>
       <div className="w-[50%] lg:w-[30%] hidden sm:flex justify-between items-center">
-        <h1 onClick={() => (location.href = "#projects")}>Projects</h1>
-        <h1 onClick={() => (location.href = "#technologies")}>Technologies</h1>
-        <h1>About Me</h1>
+        <h1
+          className="hover:cursor-pointer"
+          onClick={() => (location.href = "#projects")}
+        >
+          Projects
+        </h1>
+        <h1
+          className="hover:cursor-pointer"
+          onClick={() => (location.href = "#technologies")}
+        >
+          Technologies
+        </h1>
+        <h1
+          className="hover:cursor-pointer"
+          onClick={() => (location.href = "#about-me")}
+        >
+          About Me
+        </h1>
       </div>
       <div className="w-[30%] sm:w-[15%] lg:w-[10%] flex justify-between items-center"></div>
     </div>

@@ -9,12 +9,12 @@ const Hero = () => {
           data-aos="fade-zoom-in"
         ></div>
         <div
-          className="w-[150px] h-[150px] absolute bg-gradient-to-t from-[#8b61d5] to-[#19a9c6] rounded-full right-20 sm:right-36 mt-24 lg:right-[100px] lg:top-[200px] group-hover:transition-all group-hover:w-[100px] group-hover:h-[100px]"
+          className="w-[150px] h-[150px] absolute bg-gradient-to-t from-[#8b61d5] to-[#19a9c6] rounded-full right-20 sm:right-36 md:right-[170px] mt-24 lg:right-[100px] lg:top-[200px] group-hover:transition-all group-hover:w-[100px] group-hover:h-[100px]"
           data-aos="zoom-in-left"
         ></div>
         <div
-          className="bg-[url('/src/assets/hero.png')] bg-cover w-[200px] h-[200px] border-2 absolute rounded-full right-28 sm:53 lg:right-[130px] z-10"
-          data-aos="zoom-in-down"
+          className="bg-[url('/src/assets/hero.png')] bg-cover w-[200px] h-[200px] border-2 absolute rounded-full right-28 sm:right-52 md:right-[190px] lg:right-[130px] z-10"
+          
         ></div>
       </div>
       <div className="lg:w-[60%] z-100" data-aos="fade-zoom-in">

@@ -17,7 +17,7 @@ const ProjectCard = ({
         <p className="mt-3 text-slate-400">{description}</p>
       </div>
       <div className="flex flex-wrap space-y-2 justify-between mt-auto">
-        <div className="flex mt-5">{technologies.map((tech) => tech)}</div>
+        <div className="flex flex-wrap mt-5">{technologies.map((tech) => tech)}</div>
         <button
           className="w-full bg-gradient-to-r from-[#8b61d5] border-transparent to-[#19a9c6] rounded-full py-3 hover:bg-none border-2 hover:border-[#8b61d5]"
           onClick={() => window.open(link, "_blank")}
