@@ -6,18 +6,14 @@ const Navbar = () => {
   return (
     <div className="w-full max-w-[1640px] mx-auto flex justify-between items-center p-4">
       <div className="w-[50%] sm:w-[15%] lg:w-[10%] flex items-center">
-        <h1>J.D Portfolio</h1>
+        <h1>N.H Portfolio</h1>
       </div>
       <div className="w-[50%] lg:w-[30%] hidden sm:flex justify-between items-center">
-        <h1>Projects</h1>
+        <h1 onClick={() => (location.href = "#projects")}>Projects</h1>
         <h1>Technologies</h1>
         <h1>About Me</h1>
       </div>
-      <div className="w-[30%] sm:w-[15%] lg:w-[10%] flex justify-between items-center">
-        <FaLinkedin fontSize={30} />
-        <FaFacebook fontSize={30} />
-        <RiInstagramFill fontSize={30} />
-      </div>
+      <div className="w-[30%] sm:w-[15%] lg:w-[10%] flex justify-between items-center"></div>
     </div>
   );
 };

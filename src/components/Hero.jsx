@@ -2,13 +2,22 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="w-full max-w-[1640px] mx-auto mt-20 px-10 flex flex-col-reverse lg:flex-row-reverse ">
-      <div className="lg:w-[40%] mt-20 lg:mt-0 z-0 flex justify-center">
-        <div className="w-[350px] h-[350px] border-2 border-[#8b61d5] absolute rounded-full right-60 lg:right-[150px] lg:top-[200px]"></div>
-        <div className="w-[150px] h-[150px] absolute bg-gradient-to-t from-[#8b61d5] to-[#19a9c6] rounded-full right-36 mt-24 lg:right-[100px] lg:top-[200px]"></div>
-        <div className="bg-[url('/src/assets/hero.png')] bg-cover w-[200px] h-[200px] border-2 absolute rounded-full right-52 lg:right-[130px] z-10"></div>
+    <div className=" mt-20 flex flex-col-reverse lg:flex-row-reverse ">
+      <div className="mb-64 group lg:w-[40%] mt-20 lg:mt-0 z-0 flex justify-center">
+        <div
+          className="w-[350px] h-[350px] border-2 border-[#8b61d5] absolute z-[-1] rounded-full right-44 sm:right-60 lg:right-[150px] lg:top-[200px] group-hover:transition-all group-hover:duration-500 group-hover:ease-out group-hover:w-[400px] group-hover:h-[400px]  "
+          data-aos="fade-zoom-in"
+        ></div>
+        <div
+          className="w-[150px] h-[150px] absolute bg-gradient-to-t from-[#8b61d5] to-[#19a9c6] rounded-full right-20 sm:right-36 mt-24 lg:right-[100px] lg:top-[200px] group-hover:transition-all group-hover:w-[100px] group-hover:h-[100px]"
+          data-aos="zoom-in-left"
+        ></div>
+        <div
+          className="bg-[url('/src/assets/hero.png')] bg-cover w-[200px] h-[200px] border-2 absolute rounded-full right-28 sm:53 lg:right-[130px] z-10"
+          data-aos="zoom-in-down"
+        ></div>
       </div>
-      <div className="lg:w-[60%] z-100">
+      <div className="lg:w-[60%] z-100" data-aos="fade-zoom-in">
         <h1 className="text-5xl font-semibold bg-gradient-to-r from-[#8b61d5] to-[#19a9c6] inline-block text-transparent bg-clip-text">
           Hello, I'm Nderim Hasani
         </h1>
@@ -24,9 +33,14 @@ const Hero = () => {
           projects, developing my knowledge and learn new technologies.
         </p>
         <div className="mt-10">
-          <button className="px-5 py-2 rounded-full bg-gradient-to-r from-[#8b61d5] to-[#19a9c6]">
-            Download CV
-          </button>
+          <a href="/src/assets/Nderim Hasani CV.pdf" download="Resume.pdf">
+            <button
+              type="submit"
+              className="px-5 py-2 rounded-full bg-gradient-to-r from-[#8b61d5] to-[#19a9c6]"
+            >
+              Download CV
+            </button>
+          </a>
         </div>
       </div>
     </div>
