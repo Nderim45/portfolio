@@ -24,7 +24,7 @@ const ProjectCard = ({
         >
           Preview
         </button>
-        <div className="w-full flex justify-between space-x-3">
+        <div className="w-full flex flex-col sm:flex-row justify-between space-y-3 sm:space-x-3 sm:space-y-0">
           <button
             className="w-full border-2 border-[#8b61d5]  rounded-full py-3 hover:bg-gradient-to-r from-[#8b61d5] to-[#19a9c6] hover:border-2 hover:border-[#19a9c6] "
             onClick={() => window.open(frontend, "_blank")}
