@@ -1,10 +1,14 @@
 import { FaReact, FaNodeJs, FaSass, FaHtml5 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiRedux, SiMongodb, SiVite } from "react-icons/si";
+import realEstateImage from "../assets/real-estate-project.png";
+import betterEatImage from "../assets/better-eat-project.png";
+import incorporateTaxImage from "../assets/incorporate-tax-project.png";
+import portfolioImage from "../assets/portfolio-project.png";
 
 export const data = [
   {
-    image: "src/assets/real-estate-project.png",
+    image: realEstateImage,
     name: "Real Estate",
     description: "Responsive website for finding real estates.",
     technologies: [
@@ -21,7 +25,7 @@ export const data = [
     backend_code: "https://github.com/Nderim45/estate-backend",
   },
   {
-    image: "src/assets/better-eat-project.png",
+    image: betterEatImage,
     name: "Better Eat",
     description: "Responsive website for ordering food.",
     technologies: [
@@ -38,7 +42,7 @@ export const data = [
     backend_code: "https://github.com/Nderim45/better-eat-backend",
   },
   {
-    image: "src/assets/incorporate-tax-project.png",
+    image: incorporateTaxImage,
     name: "Incorporate Tax",
     description: "Responsive website for tax solutions.",
     technologies: [
@@ -51,7 +55,7 @@ export const data = [
     frontend_code: "https://github.com/Nderim45/incorporate-tax",
   },
   {
-    image: "src/assets/portfolio-project.png",
+    image: portfolioImage,
     name: "Portfolio",
     description: "Responsive portfolio website.",
     technologies: [

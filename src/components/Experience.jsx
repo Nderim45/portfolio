@@ -1,9 +1,9 @@
 import React from "react";
 
-const AboutMe = () => {
+const Experience = () => {
   return (
     <div id="about-me" data-aos="fade-up" className="mt-20">
-      <h1 className="text-3xl font-semibold mb-10">About Me</h1>
+      <h1 className="text-3xl font-semibold mb-10">Experience</h1>
       <ol className="items-center md:flex">
         <li className="relative mb-6 sm:mb-0">
           <div className="flex justify-center">
@@ -15,7 +15,9 @@ const AboutMe = () => {
             <div className="hidden md:flex z-10 items-center justify-center w-6 h-6 bg-gradient-to-r from-[#8b61d5] to-[#19a9c6] rounded-full shrink-0" />
           </div>
           <div className="mt-3 sm:pe-8">
-            <h1 className="text-lg font-semiboldtext-white">Solaborate L.L.C</h1>
+            <h1 className="text-lg font-semiboldtext-white">
+              Solaborate L.L.C
+            </h1>
             <h1 className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Android Developer
             </h1>
@@ -31,7 +33,7 @@ const AboutMe = () => {
           </div>
           <div className="flex items-center">
             <div className="flex w-full bg-gray-200 h-1 dark:bg-gray-700"></div>
-            <div className="hidden md:flex z-10 flex items-center justify-center w-6 h-6 bg-gradient-to-r from-[#8b61d5] to-[#19a9c6] rounded-full shrink-0" />
+            <div className="hidden md:flex z-10  items-center justify-center w-6 h-6 bg-gradient-to-r from-[#8b61d5] to-[#19a9c6] rounded-full shrink-0" />
           </div>
           <div className="mt-3 sm:pe-8">
             <h3 className="text-lg font-semiboldtext-white">
@@ -51,7 +53,7 @@ const AboutMe = () => {
           </div>
           <div className="flex items-center">
             <div className="flex w-full bg-gray-200 h-1 dark:bg-gray-700"></div>
-            <div className="hidden md:flex z-10 flex items-center justify-center w-6 h-6 bg-gradient-to-r from-[#8b61d5] to-[#19a9c6] rounded-full shrink-0" />
+            <div className="hidden md:flex z-10  items-center justify-center w-6 h-6 bg-gradient-to-r from-[#8b61d5] to-[#19a9c6] rounded-full shrink-0" />
           </div>
           <div className="mt-3 sm:pe-8">
             <h3 className="text-lg font-semibold text-white">
@@ -70,4 +72,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Experience;
