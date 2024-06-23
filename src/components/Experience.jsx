@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div id="about-me" data-aos="fade-up" className="mt-20">
+    <div id="experience" data-aos="fade-up" className="mt-20">
       <h1 className="text-3xl font-semibold mb-10">Experience</h1>
       <ol className="items-center md:flex">
         <li className="relative mb-6 sm:mb-0">
@@ -16,10 +16,10 @@ const Experience = () => {
           </div>
           <div className="mt-3 sm:pe-8">
             <h1 className="text-lg font-semiboldtext-white">
-              Solaborate L.L.C
+              Android Developer
             </h1>
             <h1 className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Android Developer
+              Solaborate L.L.C
             </h1>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               Created Android Application for virtual care project responsive to

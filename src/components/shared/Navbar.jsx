@@ -23,9 +23,9 @@ const Navbar = () => {
         </h1>
         <h1
           className="hover:cursor-pointer"
-          onClick={() => (location.href = "#about-me")}
+          onClick={() => (location.href = "#experience")}
         >
-          About Me
+          Experience
         </h1>
       </div>
       <div className="w-[30%] sm:w-[15%] lg:w-[10%] flex justify-between items-center"></div>
