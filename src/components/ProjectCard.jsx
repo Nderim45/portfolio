@@ -11,7 +11,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div data-aos="fade-up" className="flex flex-col w-full border-2 border-[#8b61d5] rounded-3xl p-5">
-      <img src={image} alt="" className="w-full h-[250px]" />
+      <img src={image} alt="" className="w-full sm:h-[250px]" />
       <div className="mt-5">
         <h1 className="text-2xl font-semibold">{name}</h1>
         <p className="mt-3 text-slate-400">{description}</p>

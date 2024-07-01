@@ -12,10 +12,7 @@ const Hero = () => {
           className="w-[150px] h-[150px] absolute bg-gradient-to-t from-[#8b61d5] to-[#19a9c6] rounded-full right-20 sm:right-36 md:right-[170px] mt-24 lg:right-[100px] lg:top-[200px] group-hover:transition-all group-hover:w-[100px] group-hover:h-[100px]"
           data-aos="zoom-in-left"
         ></div>
-        <div
-          className="bg-[url('/src/assets/hero.png')] bg-cover w-[200px] h-[200px] border-2 absolute rounded-full right-28 sm:right-52 md:right-[190px] lg:right-[130px] z-10"
-          
-        ></div>
+        <div className="bg-[url('/src/assets/hero.png')] bg-cover w-[200px] h-[200px] border-2 absolute rounded-full right-28 sm:right-52 md:right-[190px] lg:right-[130px] z-10"></div>
       </div>
       <div className="lg:w-[60%] z-100" data-aos="fade-zoom-in">
         <h1 className="text-5xl font-semibold bg-gradient-to-r from-[#8b61d5] to-[#19a9c6] inline-block text-transparent bg-clip-text">
@@ -33,7 +30,15 @@ const Hero = () => {
           projects, developing my knowledge and learn new technologies.
         </p>
         <div className="mt-10">
-          <a href="/src/assets/Nderim Hasani CV.pdf" download="Resume.pdf">
+          <a
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/u/1/uc?id=1DQsvC6xgslvjVun2pnkhNS660nCgSh2N&export=download",
+                "_blank"
+              )
+            }
+            download="Resume.pdf"
+          >
             <button
               type="submit"
               className="px-5 py-2 rounded-full bg-gradient-to-r from-[#8b61d5] to-[#19a9c6]"
