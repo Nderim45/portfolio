@@ -33,7 +33,7 @@ const Hero = () => {
           <a
             onClick={() =>
               window.open(
-                "https://drive.google.com/u/1/uc?id=1DQsvC6xgslvjVun2pnkhNS660nCgSh2N&export=download",
+                "https://drive.google.com/u/1/uc?id=15pPn27DSQyhZiPI9JZRNXEpJGwnGihv6&export=download",
                 "_blank"
               )
             }

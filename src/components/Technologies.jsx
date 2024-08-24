@@ -16,7 +16,7 @@ const Technologies = () => {
             }}
           ></div>
         </div>
-        <div className="w-[15%] flex justify-end">
+        <div className="w-[15%] flex justify-end items-center">
           <h1>{level}</h1>
         </div>
       </div>
@@ -39,6 +39,9 @@ const Technologies = () => {
       {technologie("HTML", "100%", "Advanced")}
       {technologie("CSS, TailwindCSS, Sass", "100%", "Advanced")}
       {technologie("JavaScript ES6", "100%", "Advanced")}
+      {technologie("React.js", "100%", "Advanced")}
+      {technologie("TypeScript", "65%", "Intermediate")}
+      {technologie("Next.js", "65%", "Intermediate")}
       {technologie("Redux", "30%", "Basic")}
       {technologie("Express.js", "30%", "Basic")}
       {technologie("MongoDB", "30%", "Basic")}
@@ -46,10 +49,10 @@ const Technologies = () => {
         Additional technologies and skills
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
-              {additionalSkills("Git")}
-              {additionalSkills("B2 English")}
-              {additionalSkills("Quick learning")}
-              {additionalSkills("Teamwork")}
+        {additionalSkills("Git")}
+        {additionalSkills("B2 English")}
+        {additionalSkills("Quick learning")}
+        {additionalSkills("Teamwork")}
       </div>
     </div>
   );
