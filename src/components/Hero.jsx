@@ -20,7 +20,7 @@ const Hero = () => {
         </h1>
         <h1 className="text-5xl font-semibold">frontend developer</h1>
         <p className="mt-5">
-          Dedicated Front End React Developer with 1.5 years of experience
+          Dedicated Front End React Developer with 2 years of experience
           crafting engaging and dynamic user interfaces. Proficient in
           leveraging React.js to build responsive and interactive web
           applications that meet both user needs and business goals. Skilled in
@@ -33,11 +33,11 @@ const Hero = () => {
           <a
             onClick={() =>
               window.open(
-                "https://drive.google.com/u/1/uc?id=15pPn27DSQyhZiPI9JZRNXEpJGwnGihv6&export=download",
+                "https://drive.google.com/u/1/uc?id=117WYuWIxVWztUY6BZKspP0y1k5GImKQj&export=download",
                 "_blank"
               )
             }
-            download="Resume.pdf"
+            download="Nderim Hasani CV.pdf"
           >
             <button
               type="submit"

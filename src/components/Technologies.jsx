@@ -16,7 +16,7 @@ const Technologies = () => {
             }}
           ></div>
         </div>
-        <div className="w-[15%] flex justify-end items-center">
+        <div className="w-[15%] flex justify-end sm:items-center">
           <h1>{level}</h1>
         </div>
       </div>
