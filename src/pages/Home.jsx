@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/shared/Navbar";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";

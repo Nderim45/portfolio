@@ -20,7 +20,7 @@ const Hero = () => {
         </h1>
         <h1 className="text-5xl font-semibold">frontend developer</h1>
         <p className="mt-5">
-          Dedicated Front End React Developer with 2 years of experience
+          Dedicated Front End React Developer with 3 years of experience
           crafting engaging and dynamic user interfaces. Proficient in
           leveraging React.js to build responsive and interactive web
           applications that meet both user needs and business goals. Skilled in

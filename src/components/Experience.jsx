@@ -1,10 +1,9 @@
-import React from "react";
 
 const Experience = () => {
   return (
     <div id="experience" data-aos="fade-up" className="mt-20">
       <h1 className="text-3xl font-semibold mb-10">Experience</h1>
-      <ol className="grid grid-cols-1 items-center md:grid-cols-3">
+      <ol className="grid grid-cols-1 items-center md:grid-cols-2 lg:grid-cols-4">
         <li className="relative h-[100%] mb-6 sm:mb-0">
           <div className="flex justify-center mt-auto">
             <h1 className="">December 2019 - March 2020</h1>
@@ -43,10 +42,13 @@ const Experience = () => {
               BONC Application
             </time>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Created responsive web application for managing ANPR cameras. Used
-              by police to monitor if border cameras are working properly and
-              filter through database of vehicles license plates that have
-              passed in borders of Kosova.
+              Contributed to a project involving ANPR (Automatic Number Plate
+              Recognition) cameras designed for use at border checkpoints. My
+              role focused on building the frontend interface for managing and
+              displaying camera data, ensuring accurate visualization and smooth
+              interaction for end-users. This project gave me experience in
+              working with real-time data and developing solutions that
+              supported security and border control operations.
             </p>
           </div>
         </li>
@@ -66,10 +68,39 @@ const Experience = () => {
               Suchagents
             </time>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Created and maintained responsive real estate web application.
-              Used different react libraries to ensure easier communication
-              between clients, brokers and call agents to create appointments,
-              sell and buy properties.
+              Worked on a real estate platform that enabled users to search for
+              properties and connect with brokers online. I developed responsive
+              property listing pages, contact features, and user-friendly
+              interfaces using React and MUI, ensuring a modern design and
+              smooth user experience. This project strengthened my ability to
+              build practical, visually consistent solutions tailored to the
+              real estate market.
+            </p>
+          </div>
+        </li>
+        <li className="relative h-[100%] mb-6 sm:mb-0">
+          <div className="flex justify-center mt-auto">
+            <h1 className="">January 2024 - Present</h1>
+          </div>
+          <div className="flex items-center">
+            <div className="flex w-full bg-gray-200 h-1 dark:bg-gray-700"></div>
+            <div className="hidden md:flex z-10 items-center justify-center w-6 h-6 bg-gradient-to-r from-[#8b61d5] to-[#19a9c6] rounded-full shrink-0" />
+          </div>
+          <div className="mt-3 sm:pe-8">
+            <h1 className="text-lg font-semiboldtext-white">
+              Freelance Front-End Developer
+            </h1>
+            <h1 className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"></h1>
+            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+              Worked on real-world projects including an eSIM website, where I
+              developed core features such as authentication, Stripe checkout
+              integration, and a responsive UI using React and Tailwind. I also
+              contributed to a job marketplace platform that allows users to
+              search and apply for jobs while companies can post openings,
+              focusing on building scalable components and delivering a smooth
+              user experience. These projects helped me strengthen my skills in
+              React, frontend best practices, and team collaboration while
+              delivering production-ready solutions.
             </p>
           </div>
         </li>
